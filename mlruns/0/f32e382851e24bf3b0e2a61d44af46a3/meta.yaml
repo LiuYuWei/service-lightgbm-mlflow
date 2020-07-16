@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Workspace/6-self-project/service-lightgbm-mlflow/mlruns/0/f32e382851e24bf3b0e2a61d44af46a3/artifacts
+end_time: 1594911366196
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: f32e382851e24bf3b0e2a61d44af46a3
+run_uuid: f32e382851e24bf3b0e2a61d44af46a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1594911365580
+status: 3
+tags: []
+user_id: LiuSimon(599090)

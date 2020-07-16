@@ -1,2 +1,15 @@
 project:
   path: '' #your project develope path
+
+etl:
+  dataset: 'titanic'
+
+titanic:
+  extract:
+    train_file: "data/original/train.csv"
+    test_file: "data/original/test.csv"
+    train_label: "Survived"
+  transform:
+    drop_columns: ["Survived", "Name", "Ticket", "SibSp", "Parch", "PassengerId"]
+  load_to:
+    save_file_path: "data/preprocessing"
