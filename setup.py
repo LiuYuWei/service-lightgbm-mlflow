@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     project_name='service-lightgbm-mlflow',
-    project_version='0.1.0',
+    project_version='0.1.1',
     description='In this project, we use machine learning and mlflow to predict the classification data.',
     long_description=readme_text,
     author='Simon Liu',
