@@ -13,7 +13,7 @@ class PipelineAPP:
         self.log = config_setting.set_logger(["data_etl_app"])
         self.data_etl_service = DataEtlService()
     
-    def pipeline(self):
+    def all_pipeline(self):
         self.etl()
         self.train()
         self.evaluate()
