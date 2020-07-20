@@ -5,23 +5,10 @@ service-lightgbm-mlflow
 Kaggle competition on titanic prediction
 In this project, we want to training titanic classification data
 
-```markdown
-- model Contains:
-if model == 'svm':
-    svm_training
-elif model == 'knn':
-    knn_training
-elif model == 'tree':
-    decision_tree_training
-elif model == 'rf':
-    rf_training
-elif model == 'gnb':
-    gnb_training
-elif model == 'gb':
-    gradient_boosting_training
-elif model == 'ada':
-    ada_boost_training
-```
+# To-Do
+- [X] Add data etl pipeline into project.
+- [ ] Add training pipeline into project.
+- [ ] Add evaluate pipeline into project.
 
 ## Get started
 
